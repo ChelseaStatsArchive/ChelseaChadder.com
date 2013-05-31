@@ -34,12 +34,30 @@
       <p>Statistical analysis of Chelsea players past and present</p>
 <form action="../" class="form">
   	<select name="mySelectbox">
-		<option value="" class="bolder"> -- Choose a Player--</option>
+		<option value="" class="bolder"> -- Choose a current player--</option>
+    <option value="http://gumroad.com/chelseachadder/davidluiz">David Luiz</option>
+    
+		</select>
+		<input type="button" class="btn btn-primary btn-mini" onclick="window.open(this.form.mySelectbox.options[this.form.mySelectbox.selectedIndex].value,'_top')" value="Buy">
+</form>
+
+<form action="../" class="form">
+  	<select name="mySelectbox">
+		<option value="" class="bolder"> -- Choose a legend--</option>
+    <option value="http://gumroad.com/chelseachadder/johnterry">John Terry</option>
+    <option value="http://gumroad.com/chelseachadder/franklampard">Frank Lampard</option>  
+		</select>
+		<input type="button" class="btn btn-primary btn-mini" onclick="window.open(this.form.mySelectbox.options[this.form.mySelectbox.selectedIndex].value,'_top')" value="Buy">
+</form>
+
+<form action="../" class="form">
+  	<select name="mySelectbox">
+		<option value="" class="bolder"> -- All Players--</option>
     <option value="http://gumroad.com/chelseachadder/pauloferreira">Paulo Ferreira</option>
     
 		</select>
 		<input type="button" class="btn btn-primary btn-mini" onclick="window.open(this.form.mySelectbox.options[this.form.mySelectbox.selectedIndex].value,'_top')" value="Buy">
-		</form>
+</form>
     </div>
   </div>
 
