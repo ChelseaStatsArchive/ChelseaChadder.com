@@ -29,12 +29,12 @@ p {
 .brick {
   float: left;
   background-color: #fff;
-  width: 320px;
+  width: 180px;
   height: 180px;
   position: relative;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
 }
 
 .brick:after {
