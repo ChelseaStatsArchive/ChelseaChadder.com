@@ -4,7 +4,7 @@ body {
   background-color: #6b7fdc;  /* #d0162c; */
   color: #fff;
   font-size: 16px;
-  line-height: 18px;
+  line-height: 20px;
 }
 .container {
   position: fixed;
@@ -23,19 +23,21 @@ p {
   margin-bottom: 11px;
 }
 
+p.small { font-size:0.75em; text-align:justify;}
 
 /* #Brick
 ================================================== */
 .brick {
   float: left;
   background-color: #fff;
-  width: 180px;
-  height: 180px;
+  width: 205px;
+  height: 205px;
   position: relative;
   -webkit-border-radius: 2px;
      -moz-border-radius: 2px;
           border-radius: 2px;
 }
+.brick img {padding:15px;}
 
 .brick:after {
   left: auto;
