@@ -30,14 +30,14 @@ p.small { font-size:0.75em; text-align:justify;}
 .brick {
   float: left;
   background-color: #fff;
-  width: 245px;
-  height: 245px;
+  width: 255px;
+  height: 255px;
   position: relative;
   -webkit-border-radius: 2px;
      -moz-border-radius: 2px;
           border-radius: 2px;
 }
-.brick img {padding:35px;}
+.brick img {padding:40px;}
 
 .brick:after {
   left: auto;
